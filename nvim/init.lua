@@ -30,6 +30,7 @@ local themes = {
 require('lazy').setup({
   require(themes[env_var_nvim_theme]),
   require 'plugins.telescope',
+  require 'plugins.copilot',
   require 'plugins.treesitter',
   require 'plugins.lsp',
   require 'plugins.autocompletion',
